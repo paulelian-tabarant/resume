@@ -1,0 +1,10 @@
+{
+  "name": "pauleliance",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  },
+  "author": "Paul-Elian Tabarant",
+  "license": "ISC"
+}

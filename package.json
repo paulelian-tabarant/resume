@@ -1,9 +1,11 @@
 {
   "name": "cv",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "description": "Paul-Elian Tabarant's resume",
   "scripts": {
-    "dev": "resume serve",
+    "dev": "npm-run-all --parallel watch serve",
+    "watch": "chokidar 'jsonresume-theme-pauleliance/**/*.ts' 'resume.json' -c 'cd jsonresume-theme-pauleliance && tsc && cd - && resume export public/index.html --theme ./jsonresume-theme-pauleliance && echo Theme rebuilt!'",
+    "serve": "resume serve -t ./jsonresume-theme-pauleliance",
     "export": "resume export resume.pdf"
   },
   "keywords": [
@@ -19,6 +21,12 @@
     "jsonresume-theme-stackoverflow": "^2.1.0",
     "jsonresume-theme-straightforward": "^0.2.0",
     "puppeteer": "24.16.0",
-    "resume-cli": "3.1.2"
+    "resume-cli": "3.1.2",
+    "typescript": "^5.9.2",
+    "handlebars": "4.7.8"
+  },
+  "devDependencies": {
+    "chokidar-cli": "^3.0.0",
+    "npm-run-all": "^4.1.5"
   }
 }
