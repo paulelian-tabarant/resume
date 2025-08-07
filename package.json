@@ -1,0 +1,20 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "Paul-Elian Tabarant's resume",
+  "main": "index.js",
+  "scripts": {
+    "export-html": "resumed render resume.json -t jsonresume-theme-elegant",
+    "export-pdf": "resumed export resume.json -t jsonresume-theme-elegant"
+  },
+  "keywords": [
+    "resume"
+  ],
+  "author": "Paul-Elian Tabarant",
+  "license": "ISC",
+  "dependencies": {
+    "jsonresume-theme-elegant": "^1.16.1",
+    "puppeteer": "^24.16.0",
+    "resumed": "^6.0.0"
+  }
+}
