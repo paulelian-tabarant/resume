@@ -1,164 +1,238 @@
 {
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
-    "name": "Richard Hendriks",
-    "label": "Programmer",
+    "name": "Paul-Elian Tabarant",
+    "label": "Software Engineer",
     "image": "",
-    "email": "richard.hendriks@mail.com",
-    "phone": "(912) 555-4321",
-    "url": "http://richardhendricks.example.com",
-    "summary": "Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinal!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!",
+    "email": "paul.tabarant@gmail.com",
+    "phone": "+33 6 68 61 07 09",
+    "url": "https://github.com/paulelian-tabarant",
+    "summary": "'I'm not a great developer; I'm a good developer with great habits' - Kent Beck",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "city": "Lille",
+      "countryCode": "FR",
+      "region": "Hauts-de-France"
     },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "neutralthoughts",
-        "url": "https://www.twitter.com"
-      },
-      {
-        "network": "SoundCloud",
-        "username": "dandymusicnl",
-        "url": "https://soundcloud.example.com/dandymusicnl"
-      }
-    ]
+    "profiles": []
   },
   "work": [
     {
-      "name": "Pied Piper",
-      "location": "Palo Alto, CA",
-      "description": "Awesome compression company",
-      "position": "CEO/President",
-      "url": "http://piedpiper.example.com",
-      "startDate": "2013-12-01",
-      "endDate": "2014-12-01",
-      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+      "name": "OCTO Technology",
+      "location": "Paris/Lille",
+      "position": "Consultant & Développeur Full Stack",
+      "startDate": "2021-10",
+      "summary": "Missions de création ou d'évolutions fonctionnelles de produits Web dans différents secteurs (public, retail, loisirs) en tant que développeur, dans des équipes de 2 à 6 personnes",
       "highlights": [
-        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
-        "Successfully won Techcrunch Disrupt",
-        "Optimized an algorithm that holds the current world record for Weisman Scores"
+        "Création from scratch d'un MVP avec système événementiel (Ministère de la Transition Écologique)",
+        "Création from scratch d'un middle office fidélité pour Kiabi (API Java Spring Boot) et passation",
+        "Cadrage et mise en place du flow de paiement B2B et de nouvelles typologies de tickets pour Parc Astérix, Musée Grévin",
+        "Animation de formations TDD et design applicatif pour 5+ salariés d'Accenture et Adeo",
+        "Onboarding de 3+ développeurs et instauration/animation des rituels d'équipe pour la gestion de la dette technique",
+        "Animation de 10+ démos fonctionnelles"
+      ]
+    },
+    {
+      "name": "CNRS / Université de Lille",
+      "location": "Lille",
+      "position": "Ingénieur R&D 3D/VR",
+      "startDate": "2019-10",
+      "endDate": "2021-06",
+      "summary": "Développement d'applications 3D et VR au sein du [PIRVI](https://pirvi.univ-lille.fr/) pour divers clients du domaine public, la plupart du temps en individuel",
+      "highlights": [
+        "Ajout de fonctionnalités, mise à disposition et configuration du moteur 3D de l'équipe pour une installation artistique",
+        "Création de zéro d'une application 3D WebGL d'annotation de statues avec comme enjeu principal la détection de collisions",
+        "Implémentation d'un algorithme de génération 3D de bâtiments pour de la visualisation de données publiques"
+      ]
+    },
+    {
+      "name": "INRIA",
+      "location": "Grenoble",
+      "position": "Stagiaire",
+      "startDate": "2019-01",
+      "endDate": "2019-07",
+      "summary": "3D sketching in immersive environments",
+      "highlights": [
+        "Mise au point d'un algorithme pour générer des formes 3D à partir de gestes dans un environnement VR",
+        "PoC du fonctionnement temps réel sur une application 3D VR (C++, OpenGL)"
       ]
     }
   ],
   "volunteer": [
     {
-      "organization": "CoderDojo",
-      "position": "Teacher",
-      "url": "http://coderdojo.example.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Global movement of free coding clubs for young people.",
-      "highlights": [
-        "Awarded 'Teacher of the Month'"
-      ]
+      "organization": "L'Aéronef",
+      "position": "Serveur",
+      "location": "Lille",
+      "startDate": "2023-05",
+      "endDate": "2024-03"
+    },
+    {
+      "organization": "Le Valdocco",
+      "position": "Aide aux devoirs pour lycéens",
+      "location": "Lille",
+      "startDate": "2021-01",
+      "endDate": "2022-12"
+    },
+    {
+      "organization": "OLPC France",
+      "position": "Réparateur d'ordinateurs",
+      "startDate": "2017-07",
+      "endDate": "2017-08"
     }
   ],
   "education": [
     {
-      "institution": "University of Oklahoma",
-      "url": "https://www.ou.edu/",
-      "area": "Information Technology",
-      "studyType": "Bachelor",
-      "startDate": "2011-06-01",
-      "endDate": "2014-01-01",
-      "score": "4.0",
-      "courses": [
-        "DB1101 - Basic SQL",
-        "CS2011 - Java Introduction"
-      ]
-    }
-  ],
-  "awards": [
+      "institution": "Télécom Paris",
+      "studyType": "Informatique graphique 3D, IoT",
+      "area": "Diplôme d'ingénieur",
+      "startDate": "2016-09",
+      "endDate": "2019-07"
+    },
     {
-      "title": "Digital Compression Pioneer Award",
-      "date": "2014-11-01",
-      "awarder": "Techcrunch",
-      "summary": "There is no spoon."
+      "institution": "Télécom Saint-Étienne",
+      "studyType": "Cycle Initial des Technologies de l'Information",
+      "area": "Classe préparatoire intégrée",
+      "startDate": "2014-09",
+      "endDate": "2016-06"
     }
   ],
-  "publications": [
-    {
-      "name": "Video compression for 3d media",
-      "publisher": "Hooli",
-      "releaseDate": "2014-10-01",
-      "url": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
-      "summary": "Innovative middle-out compression algorithm that changes the way we store data."
-    }
-  ],
+  "awards": [],
+  "publications": [],
   "skills": [
     {
-      "name": "Web Development",
-      "level": "Master",
+      "name": "Pratiques de développement",
+      "level": "Advanced",
       "keywords": [
-        "HTML",
-        "CSS",
-        "Javascript"
+        "Tests orientés comportement",
+        "Wishful programming",
+        "Pair prog pragmatique",
+        "Baby steps",
+        "Tell, don't ask",
+        "Step down rule",
+        "Self-explaining code",
+        "Ubiquitous language",
+        "Screaming architecture",
+        "Découplage ou cohérence ?",
+        "DRY ou WET ?"
       ]
     },
     {
-      "name": "Compression",
-      "level": "Master",
+      "name": "Backend",
+      "level": "Advanced",
       "keywords": [
-        "Mpeg",
-        "MP4",
-        "GIF"
+        "Java",
+        "Kotlin",
+        "Spring Boot",
+        "JUnit",
+        "JPA",
+        "TypeScript",
+        "Nest.js",
+        "Jest/Vitest",
+        "TypeORM",
+        "Cucumber",
+        "APIs REST"
+      ]
+    },
+    {
+      "name": "Frontend",
+      "level": "Intermediate",
+      "keywords": [
+        "TypeScript",
+        "Vite",
+        "Vue (composition API)",
+        "VeeValidate",
+        "React",
+        "Jest/Vitest",
+        "Testing Library",
+        "Cypress"
+      ]
+    },
+    {
+      "name": "Organisation d'équipe",
+      "level": "Advanced",
+      "keywords": [
+        "US verticales",
+        "Cadrage technique",
+        "Vulgarisation",
+        "Priorisation de la dette",
+        "Standards",
+        "Concertation pour les choix structurants",
+        "Ask for help !"
+      ]
+    },
+    {
+      "name": "Transmission",
+      "level": "Intermediate",
+      "keywords": [
+        "Écriture d'US",
+        "Écriture d'ADR",
+        "Présentation de démos",
+        "Formation Software Craftsmanship",
+        "Onboarding"
+      ]
+    },
+    {
+      "name": "CI/CD & Infrastructure",
+      "level": "Beginner",
+      "keywords": [
+        "Github actions",
+        "Jobs Gitlab",
+        "Création d'images Docker",
+        "Docker Compose"
       ]
     }
   ],
   "languages": [
     {
-      "language": "English",
-      "fluency": "Native speaker"
+      "language": "Anglais",
+      "fluency": "C1"
+    },
+    {
+      "language": "Espagnol",
+      "fluency": "C1"
     }
   ],
   "interests": [
     {
-      "name": "Wildlife",
+      "name": "Aventures humaines",
       "keywords": [
-        "Ferrets",
-        "Unicorns"
+        "Tour de l'Adriatique",
+        "Bâteau-stop dans l'Atlantique",
+        "Camino Francés",
+        "Camino del Norte",
+        "Via Podiensis",
+        "Travail chez l'Habitant à Cardiff, Serpa",
+        "Couchsurfing",
+        "Échanges universitaires à Moscou, Montréal",
+        "Interrail en Europe Centrale",
+        "Mission d'aide au développement à Madagascar",
+        "Sentier des Douaniers"
+      ]
+    },
+    {
+      "name": "Connaissance de soi",
+      "keywords": [
+        "Pleine conscience",
+        "Eckhart Tolle",
+        "Tara Brach",
+        "Fabrice Midal",
+        "Ludovic Hubler",
+        "André Brugiroux",
+        "Sylvain Tesson"
+      ]
+    },
+    {
+      "name": "Écriture",
+      "keywords": [
+        "Introspection",
+        "Essais (blog personnel)"
       ]
     }
   ],
-  "references": [
-    {
-      "name": "Erlich Bachman",
-      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
-    }
-  ],
-  "projects": [
-    {
-      "name": "Miss Direction",
-      "description": "A mapping engine that misguides you",
-      "highlights": [
-        "Won award at AIHacks 2016",
-        "Built by all women team of newbie programmers",
-        "Using modern technologies such as GoogleMaps, Chrome Extension and Javascript"
-      ],
-      "keywords": [
-        "GoogleMaps",
-        "Chrome Extension",
-        "Javascript"
-      ],
-      "startDate": "2016-08-24",
-      "endDate": "2016-08-24",
-      "url": "http://missdirection.example.com",
-      "roles": [
-        "Team lead",
-        "Designer"
-      ],
-      "entity": "Smoogle",
-      "type": "application"
-    }
-  ],
+  "references": [],
+  "projects": [],
   "meta": {
-    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/sample.resume.json",
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
     "version": "v1.0.0",
-    "lastModified": "2017-12-24T15:53:00"
+    "lastModified": "2025-08-08T09:06:35Z"
   }
 }
