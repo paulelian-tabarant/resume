@@ -3,8 +3,12 @@
     "target": "es2020",
     "module": "commonjs",
     "outDir": ".",
-    "strict": true,
+    "strict": true
   },
-  "include": ["**/*"],
-  "exclude": ["node_modules"]
+  "include": [
+    "**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
