@@ -22,8 +22,7 @@
     "jsonresume-theme-straightforward": "^0.2.0",
     "puppeteer": "24.16.0",
     "resume-cli": "3.1.2",
-    "typescript": "^5.9.2",
-    "handlebars": "4.7.8"
+    "typescript": "^5.9.2"
   },
   "devDependencies": {
     "chokidar-cli": "^3.0.0",

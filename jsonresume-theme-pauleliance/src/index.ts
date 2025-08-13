@@ -1,14 +1,15 @@
-import Handlebars = require("handlebars");
 import Resume from "./jsonresume.interface";
 
 const render = (resume: Resume): string => {
-    const template = Handlebars.compile(`
-        <h1>{{basics.name}}</h1>
-        <p>{{basics.summary}}</p>
-    `);
+    // TODO: implement proper validation
+    if (!resume.basics?.name || !resume.basics?.summary) {
+        throw new Error("Missing required fields in resume");
+    }
 
-    return template(resume);
+    return `
+        <h1>${resume.basics.name}</h1>
+        <p>${resume.basics.summary}</p>
+    `
 }
 
-
-export { render }
+export {render}
