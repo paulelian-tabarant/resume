@@ -1,10 +1,10 @@
 {
   "name": "cv",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Paul-Elian Tabarant's resume",
   "scripts": {
-    "dev": "resume serve -r resume-fr.json",
-    "export": "resume export cv.pdf -r resume-fr.json"
+    "export:web": "resumed render resume-fr.json -o cv.html -t jsonresume-theme-even",
+    "export:paper": "resumed export resume-fr.json -o cv.pdf -t jsonresume-theme-even"
   },
   "keywords": [
     "resume"
@@ -19,6 +19,7 @@
     "jsonresume-theme-stackoverflow": "^2.1.0",
     "jsonresume-theme-straightforward": "^0.2.0",
     "puppeteer": "24.16.0",
-    "resume-cli": "3.1.2"
+    "resume-cli": "3.1.2",
+    "resumed": "^6.0.0"
   }
 }

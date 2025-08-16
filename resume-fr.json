@@ -6,28 +6,41 @@
     "image": "",
     "email": "paul.tabarant@gmail.com",
     "phone": "+33 6 68 61 07 09",
-    "url": "https://github.com/paulelian-tabarant",
     "summary": "'I'm not a great developer; I'm a good developer with great habits' - Kent Beck",
     "location": {
       "city": "Lille",
       "countryCode": "FR",
       "region": "Hauts-de-France"
     },
-    "profiles": []
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "paulelian-tabarant",
+        "url": "https://github.com/paulelian-tabarant"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "Paul-Elian Tabarant",
+        "url": "https://www.linkedin.com/in/paul-elian-tabarant-⛵-87b9b8a2"
+      }
+    ]
   },
   "work": [
     {
       "name": "OCTO Technology",
-      "location": "Paris/Lille",
+      "location": "Lille/Paris",
       "position": "Consultant & Développeur Full Stack",
       "startDate": "2021-10",
-      "summary": "Missions de création ou d'évolutions fonctionnelles de produits Web dans différents secteurs (public, retail, loisirs) en tant que développeur, dans des équipes de 2 à 6 personnes",
+      "summary": "Missions de création ou d'évolutions fonctionnelles de produits Web dans différents secteurs (public, retail, loisirs) dans des équipes de 2 à 6 personnes",
       "highlights": [
-        "Création from scratch d'un MVP avec système événementiel (Ministère de la Transition Écologique)",
-        "Création from scratch d'un middle office fidélité pour Kiabi (API Java Spring Boot) et passation",
-        "Cadrage et mise en place du flow de paiement B2B et de nouvelles typologies de tickets pour Parc Astérix, Musée Grévin",
-        "Animation de formations TDD et design applicatif pour 5+ salariés d'Accenture et Adeo",
-        "Onboarding de 3+ développeurs et instauration/animation des rituels d'équipe pour la gestion de la dette technique",
+        "Livraison en duo de fonctionnalités du MVP de tarification des centres d'hébergement d'urgence sur l'ensemble du territoire français",
+        "Mise en place d'un système événementiel (effets de bord d'actions métier)",
+        "Création from scratch d'un middle office fidélité Kiabi et passation",
+        "Cadrage de nouvelles typologies de tickets pour Parc Astérix, Musée Grévin",
+        "Mise en place du flow de paiement B2B",
+        "Animation de formations TDD et design applicatif pour 5+ salariés externes",
+        "Onboarding de 3+ développeurs",
+        "Instauration des rituels d'équipe pour la gestion de la dette technique",
         "Animation de 10+ démos fonctionnelles"
       ]
     },
@@ -36,12 +49,12 @@
       "location": "Lille",
       "position": "Ingénieur R&D 3D/VR",
       "startDate": "2019-10",
-      "endDate": "2021-06",
-      "summary": "Développement d'applications 3D et VR au sein du [PIRVI](https://pirvi.univ-lille.fr/) pour divers clients du domaine public, la plupart du temps en individuel",
+      "endDate": "2021-07",
+      "summary": "Développement d'applications 3D et VR au sein du PIRVI pour des clients du secteur public, la plupart du temps en individuel",
       "highlights": [
-        "Ajout de fonctionnalités, mise à disposition et configuration du moteur 3D de l'équipe pour une installation artistique",
-        "Création de zéro d'une application 3D WebGL d'annotation de statues avec comme enjeu principal la détection de collisions",
-        "Implémentation d'un algorithme de génération 3D de bâtiments pour de la visualisation de données publiques"
+        "Implémentation d'algorithmes de génération 3D et de rendu (shaders)",
+        "Mise à disposition et configuration d'une installation artistique interactive",
+        "Création de zéro d'un outil d'annotation de statues 3D WebGL"
       ]
     },
     {
@@ -52,8 +65,8 @@
       "endDate": "2019-07",
       "summary": "3D sketching in immersive environments",
       "highlights": [
-        "Mise au point d'un algorithme pour générer des formes 3D à partir de gestes dans un environnement VR",
-        "PoC du fonctionnement temps réel sur une application 3D VR (C++, OpenGL)"
+        "Mise au point d'un algorithme pour générer des formes 3D en tems réel à partir de descriptions gestuelles dans un environnement VR",
+        "Implémentation d'un PoC pour prouver le fonctionnement (application 3D VR)"
       ]
     }
   ],
@@ -63,20 +76,24 @@
       "position": "Serveur",
       "location": "Lille",
       "startDate": "2023-05",
-      "endDate": "2024-03"
+      "endDate": "2024-03",
+      "summary": "Salle de concert : communauté de passionnés de musique"
     },
     {
       "organization": "Le Valdocco",
       "position": "Aide aux devoirs pour lycéens",
       "location": "Lille",
       "startDate": "2021-01",
-      "endDate": "2022-12"
+      "endDate": "2022-12",
+      "summary": "Pédagogie, plaisir de rendre service"
     },
     {
       "organization": "OLPC France",
       "position": "Réparateur d'ordinateurs",
+      "location": "Antitorona, Madagascar",
       "startDate": "2017-07",
-      "endDate": "2017-08"
+      "endDate": "2017-08",
+      "summary": "Curiosité, soif d'aventure et de dépaysement"
     }
   ],
   "education": [
@@ -198,14 +215,11 @@
         "Tour de l'Adriatique",
         "Bâteau-stop dans l'Atlantique",
         "Camino Francés",
-        "Camino del Norte",
         "Via Podiensis",
-        "Travail chez l'Habitant à Cardiff, Serpa",
         "Couchsurfing",
-        "Échanges universitaires à Moscou, Montréal",
-        "Interrail en Europe Centrale",
-        "Mission d'aide au développement à Madagascar",
-        "Sentier des Douaniers"
+        "Sentier des Douaniers",
+        "Travail chez l'habitant à Cardiff et Serpa",
+        "Échanges universitaires à Moscou et Montréal"
       ]
     },
     {
@@ -233,6 +247,6 @@
   "meta": {
     "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
     "version": "v1.0.0",
-    "lastModified": "2025-08-08T09:06:35Z"
+    "lastModified": "2025-08-16T08:14:32Z"
   }
 }
