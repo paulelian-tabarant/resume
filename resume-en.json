@@ -1,0 +1,252 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Paul-Elian Tabarant",
+    "label": "Software Engineer",
+    "email": "paul.tabarant@gmail.com",
+    "url": "https://registry.jsonresume.org/paulelian-tabarant",
+    "phone": "+33 6 68 61 07 09",
+    "summary": "'I'm not a great developer; I'm a good developer with great habits' - Kent Beck",
+    "location": {
+      "city": "Lille",
+      "countryCode": "FR",
+      "region": "Hauts-de-France"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "paulelian-tabarant",
+        "url": "https://github.com/paulelian-tabarant"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "Paul-Elian Tabarant",
+        "url": "https://www.linkedin.com/in/paul-elian-tabarant-⛵-87b9b8a2"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "OCTO Technology",
+      "location": "Lille/Paris, France",
+      "position": "Consultant & Full Stack Developer",
+      "startDate": "2021-10",
+      "summary": "Developed and evolved web products across various sectors (public, retail, entertainment) in teams of 2 to 6 people",
+      "highlights": [
+        "Delivered crucial MVP pricing features for emergency housing centers in France",
+        "Owned the creation of an event-driven system for business action side effects",
+        "Owned the bootstrapping of Kiabi loyalty middle office system",
+        "Owned the design of new ticket typologies for Parc Astérix and Musée Grévin",
+        "Implemented B2B payment flow for leisure park ticketing systems",
+        "Established team rituals for technical debt management",
+        "Conducted Software Craftsmanship training sessions for 10+ developers",
+        "Onboarded 5+ developers",
+        "Facilitated 10+ functional demos"
+      ]
+    },
+    {
+      "name": "CNRS / University of Lille",
+      "location": "Lille, France",
+      "position": "3D/VR R&D Engineer",
+      "startDate": "2019-10",
+      "endDate": "2021-07",
+      "summary": "Developed 3D and VR applications within PIRVI for public sector clients, primarily working individually",
+      "highlights": [
+        "Implemented 3D generation algorithms and rendering (shaders)",
+        "Deployed and configured an interactive artistic installation",
+        "Created from scratch a 3D statue annotation tool using WebGL"
+      ]
+    },
+    {
+      "name": "INRIA",
+      "location": "Grenoble, France",
+      "position": "Research Intern",
+      "startDate": "2019-01",
+      "endDate": "2019-07",
+      "summary": "3D sketching in immersive environments",
+      "highlights": [
+        "Developed an algorithm to generate 3D shapes in real-time from gestural descriptions in VR environments",
+        "Implemented a 3D VR application from scratch to demonstrate functionality"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "L'Aéronef",
+      "position": "Server",
+      "location": "Lille, France",
+      "startDate": "2023-05",
+      "endDate": "2024-03",
+      "summary": "Concert venue: community of music enthusiasts"
+    },
+    {
+      "organization": "Le Valdocco",
+      "position": "Homework Tutor for High School Students",
+      "location": "Lille, France",
+      "startDate": "2021-01",
+      "endDate": "2022-12",
+      "summary": "Pedagogy, pleasure in community service"
+    },
+    {
+      "organization": "OLPC France",
+      "position": "Computer Repair Technician",
+      "location": "Antitorona, Madagascar",
+      "startDate": "2017-07",
+      "endDate": "2017-08",
+      "summary": "Curiosity, thirst for adventure and cultural immersion"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Télécom Paris",
+      "studyType": "Master of Engineering",
+      "area": "3D Computer Graphics, IoT",
+      "startDate": "2016-09",
+      "endDate": "2019-07"
+    },
+    {
+      "institution": "Télécom Saint-Étienne",
+      "studyType": "Preparatory Program",
+      "area": "Initial Cycle in Information Technologies",
+      "startDate": "2014-09",
+      "endDate": "2016-06"
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Development Practices",
+      "level": "Advanced",
+      "keywords": [
+        "Behavior-driven testing",
+        "Wishful programming",
+        "Pragmatic pair programming",
+        "Baby steps",
+        "Tell, don't ask",
+        "Step down rule",
+        "Self-explaining code",
+        "Ubiquitous language",
+        "Screaming architecture",
+        "Decoupling vs. cohesion",
+        "DRY vs. WET"
+      ]
+    },
+    {
+      "name": "Backend",
+      "level": "Advanced",
+      "keywords": [
+        "Java",
+        "Kotlin",
+        "Spring Boot",
+        "JUnit",
+        "JPA",
+        "TypeScript",
+        "Nest.js",
+        "Jest/Vitest",
+        "TypeORM",
+        "Cucumber",
+        "REST APIs"
+      ]
+    },
+    {
+      "name": "Frontend",
+      "level": "Intermediate",
+      "keywords": [
+        "TypeScript",
+        "Vite",
+        "Vue (Composition API)",
+        "VeeValidate",
+        "React",
+        "Jest/Vitest",
+        "Testing Library",
+        "Cypress"
+      ]
+    },
+    {
+      "name": "Team Organization",
+      "level": "Advanced",
+      "keywords": [
+        "Vertical user stories",
+        "Technical scoping",
+        "Knowledge sharing",
+        "Debt prioritization",
+        "Standards",
+        "Collaborative decision-making for structural choices",
+        "Ask for help!"
+      ]
+    },
+    {
+      "name": "Knowledge Transfer",
+      "level": "Intermediate",
+      "keywords": [
+        "User story writing",
+        "ADR writing",
+        "Demo presentations",
+        "Software Craftsmanship training",
+        "Onboarding"
+      ]
+    },
+    {
+      "name": "CI/CD & Infrastructure",
+      "level": "Beginner",
+      "keywords": [
+        "GitHub Actions",
+        "GitLab CI",
+        "Docker image creation",
+        "Docker Compose"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English, Spanish",
+      "fluency": "C1"
+    },
+    {
+      "language": "French",
+      "fluency": "Native"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Human Adventures",
+      "keywords": [
+        "Adriatic Sea tour",
+        "Atlantic boat hitchhiking",
+        "Camino Francés",
+        "Via Podiensis",
+        "Couchsurfing",
+        "Sentier des Douaniers",
+        "Farm work in Cardiff and Serpa",
+        "University exchanges in Moscow and Montreal"
+      ]
+    },
+    {
+      "name": "Self-Knowledge",
+      "keywords": [
+        "Mindfulness",
+        "Eckhart Tolle",
+        "Tara Brach",
+        "Fabrice Midal",
+        "Ludovic Hubler",
+        "André Brugiroux",
+        "Sylvain Tesson"
+      ]
+    },
+    {
+      "name": "Writing",
+      "keywords": [
+        "Introspection",
+        "Essays (personal blog)"
+      ]
+    }
+  ],
+  "references": [],
+  "projects": [],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+    "version": "v1.0.0",
+    "lastModified": "2025-08-16T08:14:32Z"
+  }
+}

@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Paul-Elian Tabarant's resume",
   "scripts": {
-    "export:web": "resumed render resume-fr.json -o cv.html -t jsonresume-theme-even",
-    "export:paper": "resumed export resume-fr.json -o cv.pdf -t jsonresume-theme-even"
+    "export:web:en": "resumed render resume-en.json -o cv-en.html -t jsonresume-theme-even",
+    "export:paper:en": "resumed export resume-en.json -o cv-en.pdf -t jsonresume-theme-even",
+    "export:web:fr": "resumed render resume-fr.json -o cv-fr.html -t jsonresume-theme-even",
+    "export:paper:fr": "resumed export resume-fr.json -o cv-fr.pdf -t jsonresume-theme-even"
   },
   "keywords": [
     "resume"
