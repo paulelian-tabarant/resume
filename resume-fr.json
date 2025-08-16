@@ -29,6 +29,7 @@
     {
       "name": "OCTO Technology",
       "location": "Lille/Paris",
+      "url": "https://octo.com/",
       "position": "Consultant & Développeur Full Stack",
       "startDate": "2021-10",
       "summary": "Missions de création ou d'évolutions fonctionnelles de produits Web dans différents secteurs (public, retail, loisirs) dans des équipes de 2 à 6 personnes",
@@ -45,7 +46,8 @@
       ]
     },
     {
-      "name": "CNRS / Université de Lille",
+      "name": "PIRVI, Laboratoire CRIStAL",
+      "url": "https://pirvi.univ-lille.fr/",
       "location": "Lille",
       "position": "Ingénieur R&D 3D/VR",
       "startDate": "2019-10",
@@ -58,7 +60,8 @@
       ]
     },
     {
-      "name": "INRIA",
+      "name": "Équipe IMAGINE, INRIA Grenoble-Alpes",
+      "url": "https://team.inria.fr/imagine/",
       "location": "Grenoble",
       "position": "Stagiaire",
       "startDate": "2019-01",
@@ -99,7 +102,7 @@
   "education": [
     {
       "institution": "Télécom Paris",
-      "studyType": "Informatique graphique 3D, IoT",
+      "studyType": "Informatique graphique 3D, Interaction Homme/Machine et IoT",
       "area": "Diplôme d'ingénieur",
       "startDate": "2016-09",
       "endDate": "2019-07"

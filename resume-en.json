@@ -29,9 +29,10 @@
     {
       "name": "OCTO Technology",
       "location": "Lille/Paris, France",
-      "position": "Consultant & Full Stack Developer",
+      "url": "https://octo.com/",
+      "position": "Consultant & Full Stack Web Developer",
       "startDate": "2021-10",
-      "summary": "Developed and evolved web products across various sectors (public, retail, entertainment) in teams of 2 to 6 people",
+      "summary": "Created and evolved Web products across various sectors (public, retail, entertainment) in teams of 2 to 6 people",
       "highlights": [
         "Delivered crucial MVP pricing features for emergency housing centers in France",
         "Owned the creation of an event-driven system for business action side effects",
@@ -45,8 +46,9 @@
       ]
     },
     {
-      "name": "CNRS / University of Lille",
+      "name": "PIRVI, part of CRIStAL Laboratory",
       "location": "Lille, France",
+      "url": "https://pirvi.univ-lille.fr/",
       "position": "3D/VR R&D Engineer",
       "startDate": "2019-10",
       "endDate": "2021-07",
@@ -58,8 +60,9 @@
       ]
     },
     {
-      "name": "INRIA",
+      "name": "INRIA, IMAGINE Research Team",
       "location": "Grenoble, France",
+      "url": "https://team.inria.fr/imagine/",
       "position": "Research Intern",
       "startDate": "2019-01",
       "endDate": "2019-07",
@@ -73,7 +76,7 @@
   "volunteer": [
     {
       "organization": "L'Aéronef",
-      "position": "Server",
+      "position": "Bartender",
       "location": "Lille, France",
       "startDate": "2023-05",
       "endDate": "2024-03",
@@ -100,7 +103,7 @@
     {
       "institution": "Télécom Paris",
       "studyType": "Master of Engineering",
-      "area": "3D Computer Graphics, IoT",
+      "area": "3D Computer Graphics, Human/Computer Interaction & IoT",
       "startDate": "2016-09",
       "endDate": "2019-07"
     },
@@ -112,8 +115,6 @@
       "endDate": "2016-06"
     }
   ],
-  "awards": [],
-  "publications": [],
   "skills": [
     {
       "name": "Development Practices",
@@ -157,7 +158,7 @@
         "Vite",
         "Vue (Composition API)",
         "VeeValidate",
-        "React",
+        "React (Function Components)",
         "Jest/Vitest",
         "Testing Library",
         "Cypress"
@@ -182,8 +183,8 @@
       "keywords": [
         "User story writing",
         "ADR writing",
-        "Demo presentations",
-        "Software Craftsmanship training",
+        "Functional demos facilitation",
+        "Software training sessions",
         "Onboarding"
       ]
     },
@@ -212,12 +213,11 @@
     {
       "name": "Human Adventures",
       "keywords": [
-        "Adriatic Sea tour",
+        "Pilgrim route to Santiago de Compostela",
         "Atlantic boat hitchhiking",
-        "Camino Francés",
-        "Via Podiensis",
+        "Adriatic Sea tour",
         "Couchsurfing",
-        "Sentier des Douaniers",
+        "Various hikes in France",
         "Farm work in Cardiff and Serpa",
         "University exchanges in Moscow and Montreal"
       ]
