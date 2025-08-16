@@ -3,8 +3,8 @@
   "version": "0.0.2",
   "description": "Paul-Elian Tabarant's resume",
   "scripts": {
-    "dev": "resume serve",
-    "export": "resume export cv.pdf"
+    "dev": "resume serve -r resume-fr.json",
+    "export": "resume export cv.pdf -r resume-fr.json"
   },
   "keywords": [
     "resume"
