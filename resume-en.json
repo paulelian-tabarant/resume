@@ -242,7 +242,12 @@
       ]
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "name": "Samuel Degrande, Technical Team Lead at PIRVI",
+      "reference": "Faced with a software application of relatively significant size and complexity, Paul-Elian was able, for each of his tasks, to quickly identify the areas of his intervention and understand the main lines of operation, even when he did not yet have all the relevant technical knowledge. This intellectual facility allows him to quickly put in place an initial proposal, to evaluate it and then make it evolve. Fresh out of engineering school, Paul-Elian fully invested himself in a fast-paced field, and was able to quickly build up his skills and expertise. His inter-disciplinary dialogue capabilities were demonstrated through collaborations with a digital artist and with a mathematician."
+    }
+  ],
   "projects": [],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",

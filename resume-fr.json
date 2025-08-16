@@ -245,7 +245,12 @@
       ]
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "name": "Samuel Degrande, Responsable technique du PIRVI",
+      "reference": "Confronté à une application logicielle d'une taille et d'une complexíté relativement importantes, Paul-Elian a su, pour chacune de ses tâches, rapidement cibler les lieux de son intervention et en comprendre les grandes lignes de fonctionnement, même lorsqu'il n'avait pas encore toutes les connaissances techniques afférentes. Cette facilité intellectuelle lui permet de rapidement mettre en place une première proposition, pour l'évaluer puis la faire progresser. \nFraichement sorti d'une école d'ingénieur, Paul-Elian s'est pleinement investi dans un domaine dont l'évolution est très rapide, et a su rapidement monter en compétence et en expertise.\nSes capacités de dialogue inter-disciplinaire ont été démontrées au travers de collaborations avec une artiste numérique et avec un mathématicien."
+    }
+  ],
   "projects": [],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
