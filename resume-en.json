@@ -14,7 +14,7 @@
     },
     "profiles": [
       {
-        "network": "Github",
+        "network": "GitHub",
         "username": "paulelian-tabarant",
         "url": "https://github.com/paulelian-tabarant"
       },
@@ -36,8 +36,8 @@
       "highlights": [
         "Delivered crucial MVP pricing features for emergency housing centers in France",
         "Owned the creation of an event-driven system for business action side effects",
-        "Owned the bootstrapping of Kiabi loyalty middle office system",
-        "Owned the design of new ticket typologies for Parc Astérix and Musée Grévin",
+        "Owned the bootstrapping of Kiabi loyalty middle-office API",
+        "Owned the integration of a new ticket type for Parc Astérix and Musée Grévin",
         "Implemented B2B payment flow for leisure park ticketing systems",
         "Established team rituals for technical debt management",
         "Conducted Software Craftsmanship training sessions for 10+ developers",
@@ -54,7 +54,7 @@
       "endDate": "2021-07",
       "summary": "Developed 3D and VR applications within PIRVI for public sector clients, primarily working individually",
       "highlights": [
-        "Implemented 3D generation algorithms and rendering (shaders)",
+        "Implemented 3D generation algorithms and GPU-based rendering features",
         "Deployed and configured an interactive artistic installation",
         "Created from scratch a 3D statue annotation tool using WebGL"
       ]
@@ -69,7 +69,7 @@
       "summary": "3D sketching in immersive environments",
       "highlights": [
         "Developed an algorithm to generate 3D shapes in real-time from gestural descriptions in VR environments",
-        "Implemented a 3D VR application from scratch to demonstrate functionality"
+        "Integrated it within a 3D VR application to demonstrate real-time capabilities"
       ]
     }
   ],
@@ -170,7 +170,7 @@
       "keywords": [
         "Vertical user stories",
         "Technical scoping",
-        "Knowledge sharing",
+        "Technical concepts popularization",
         "Debt prioritization",
         "Standards",
         "Collaborative decision-making for structural choices",
@@ -213,11 +213,11 @@
     {
       "name": "Human Adventures",
       "keywords": [
-        "Pilgrim route to Santiago de Compostela",
+        "Pilgrim routes to Santiago de Compostela",
         "Atlantic boat hitchhiking",
-        "Adriatic Sea tour",
+        "Adriatic Sea round trip",
         "Couchsurfing",
-        "Various hikes in France",
+        "150km around Britanny coast",
         "Farm work in Cardiff and Serpa",
         "University exchanges in Moscow and Montreal"
       ]
